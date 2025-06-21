@@ -1,0 +1,37 @@
+{
+  "name": "backend.dev",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "jest",
+    "test:e2e": "jest --testPathPatterns=scripts/e2e",
+    "start:dev": "nodemon ./scripts/index.mjs",
+    "start": "node ./scripts/index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "express-validator": "^7.2.1",
+    "mongoose": "^8.15.1",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/node": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.0",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.1"
+  },
+  "type": "module"
+}
